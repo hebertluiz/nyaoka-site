@@ -49,5 +49,8 @@ We need to setup a homepage for the app. In development this will be used set as
 
 
 
+## Trobleshooting 
 
+- Error during deploy
+  - For the following error `fatal: a branch named 'gh-pages' already exists` you may need to remove the cached `gh-pages` node module with the following command `rm -rf node_modules/.cache/gh-pages`.
 
